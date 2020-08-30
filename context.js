@@ -33,3 +33,8 @@ Array.prototype.multBy = function(n){
     return this.map(i => i*n);
 }
 //array.multBy(4)
+
+const maxim = Object.create(basePerson, {
+    name: {value : "Maxim"},
+    age : {value : 18}
+})
