@@ -103,7 +103,7 @@ Promise.all([
 
 //Catching fist completed
 Promise.race([
-    sleep(5, preAction(1)),
-    sleep(2, preAction(2)),
-    sleep(3, preAction(3))
+    sleep(5, preAction(4)),
+    sleep(2, preAction(5)),
+    sleep(3, preAction(6))
 ]).then(callbackArg => messDelay(callbackArg))
